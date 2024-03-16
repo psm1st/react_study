@@ -1,11 +1,12 @@
 import React from "react";
-import { ReactDOM } from "react";
+import  ReactDOM  from "react-dom";
 import './index.css';
 import App from "./App";
 //import * as serviceWorker from './serviceWorker';
 
 //리액트 엔진이 출력하는 화면의 코드(id가 root인 엘리먼트에 컴포넌트 출력 )
 ReactDOM.render(<App/>,document.getElementById('root'));
+
 
 //서비스워커 구동 코드로 오프라인 모드로 작동하는데 도움이됨
 // serviceWorker.unregister();
